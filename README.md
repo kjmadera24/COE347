@@ -4,7 +4,7 @@ accuracy of numerical methods in the context of fluid flow simulations, ability 
 
 ## Project 1: OpenFOAM Lid-Driven Cavity Flow Simulation
 
-This project folder contains files and data for simulating the lid-driven cavity flow using OpenFOAM. The simulations are performed on various mesh grids and Reynolds numbers to study the behavior of the flow.
+This project folder contains files and data for simulating the lid-driven cavity flow using OpenFOAM and Paraview. The simulations are performed on various mesh grids and Reynolds numbers to study the behavior of the flow.
 
 ### Contents
 
