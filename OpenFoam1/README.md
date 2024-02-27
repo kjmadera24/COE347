@@ -39,6 +39,4 @@ The MATLAB scripts provided in `matlabCode` can be used to visualize and analyze
 
 ## Contributors
 
-Kamilla Madera
-Ben Juenger
-William Marsh
+Kamilla Madera, Ben Juenger, William Marsh
