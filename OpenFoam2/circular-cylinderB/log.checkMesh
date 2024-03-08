@@ -8,9 +8,9 @@
 Build  : 7
 Exec   : checkMesh
 Date   : Mar 08 2024
-Time   : 13:32:22
-Host   : "c201-009.frontera.tacc.utexas.edu"
-PID    : 285608
+Time   : 14:02:55
+Host   : "c201-014.frontera.tacc.utexas.edu"
+PID    : 261525
 I/O    : uncollated
 Case   : /work2/09043/kjm24/frontera/COE347/circular-cylinder
 nProcs : 1
@@ -26,11 +26,11 @@ Create polyMesh for time = 0
 Time = 0
 
 Mesh stats
-    points:           11660
+    points:           25380
     internal points:  0
-    faces:            22630
-    internal faces:   10970
-    cells:            5600
+    faces:            49890
+    internal faces:   24510
+    cells:            12400
     faces per cell:   6
     boundary patches: 6
     point zones:      0
@@ -38,7 +38,7 @@ Mesh stats
     cell zones:       0
 
 Overall number of cells of each type:
-    hexahedra:     5600
+    hexahedra:     12400
     prisms:        0
     wedges:        0
     pyramids:      0
@@ -56,27 +56,27 @@ Checking topology...
 
 Checking patch topology for multiply connected surfaces...
     Patch               Faces    Points   Surface topology                  
-    inlet               80       162      ok (non-closed singly connected)  
-    outlet              80       162      ok (non-closed singly connected)  
+    inlet               120      242      ok (non-closed singly connected)  
+    outlet              120      242      ok (non-closed singly connected)  
     cylinder            160      320      ok (non-closed singly connected)  
-    top                 70       142      ok (non-closed singly connected)  
-    bottom              70       142      ok (non-closed singly connected)  
-    defaultFaces        11200    11660    ok (non-closed singly connected)  
+    top                 90       182      ok (non-closed singly connected)  
+    bottom              90       182      ok (non-closed singly connected)  
+    defaultFaces        24800    25380    ok (non-closed singly connected)  
 
 Checking geometry...
-    Overall domain bounding box (-4 -4 -0.05) (4 4 0.05)
+    Overall domain bounding box (-4 -4 -0.05) (7 4 0.05)
     Mesh has 2 geometric (non-empty/wedge) directions (1 1 0)
     Mesh has 2 solution (non-empty) directions (1 1 0)
     All edges aligned with or perpendicular to non-empty directions.
-    Boundary openness (4.70581e-19 5.07293e-19 -1.96776e-16) OK.
-    Max cell openness = 2.52601e-16 OK.
-    Max aspect ratio = 10.0704 OK.
-    Minimum face area = 0.00144814. Maximum face area = 0.143902.  Face area magnitudes OK.
-    Min volume = 0.000144814. Max volume = 0.0143902.  Total volume = 6.32148.  Cell volumes OK.
-    Mesh non-orthogonality Max: 43.1528 average: 12.8859
+    Boundary openness (3.03624e-19 5.32434e-18 1.50442e-16) OK.
+    Max cell openness = 2.47864e-16 OK.
+    Max aspect ratio = 15.7905 OK.
+    Minimum face area = 0.000460175. Maximum face area = 0.0722522.  Face area magnitudes OK.
+    Min volume = 4.60175e-05. Max volume = 0.00722522.  Total volume = 8.72148.  Cell volumes OK.
+    Mesh non-orthogonality Max: 43.5657 average: 11.7439
     Non-orthogonality check OK.
     Face pyramids OK.
-    Max skewness = 0.917332 OK.
+    Max skewness = 0.851169 OK.
     Coupled point location match (average 0) OK.
 
 Mesh OK.
