@@ -29,7 +29,7 @@ stopAt          endTime;
 
 endTime         124;
 deltaT          0.005;
-writeInterval   12;
+writeInterval   1;
 
 writeControl    runTime;
 
