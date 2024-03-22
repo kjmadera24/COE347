@@ -1,8 +1,0 @@
-/work2/09043/kjm24/frontera/COE347/circular-cylinderA
-Thu Mar 21 20:00:47 CDT 2024
-Running blockMesh on /work2/09043/kjm24/frontera/COE347/circular-cylinderA
-Running checkMesh on /work2/09043/kjm24/frontera/COE347/circular-cylinderA
-Running decomposePar on /work2/09043/kjm24/frontera/COE347/circular-cylinderA
-Running icoFoam in parallel on /work2/09043/kjm24/frontera/COE347/circular-cylinderA using 36 processes
-Running reconstructPar on /work2/09043/kjm24/frontera/COE347/circular-cylinderA
-Thu Mar 21 20:02:18 CDT 2024
