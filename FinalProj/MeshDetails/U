@@ -45,6 +45,21 @@ boundaryField
         type            empty;
     }
 
+    axis
+    {
+        type            empty;
+    } 
+
+    wedge1
+    {
+        type            wedge;
+    }
+
+    wedge2
+    {
+        type            wedge;
+    }
+
 }
 
 // ************************************************************************* //
