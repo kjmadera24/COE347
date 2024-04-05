@@ -1,0 +1,435 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      sample;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+type sets;
+libs            ("libsampling.so");
+
+interpolationScheme cell;
+
+setFormat       raw;
+
+writeControl    writeTime; // this ensures that it's writing only at writeInterval
+
+sets
+(
+line1 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.321394 0.383022 0); 
+end  (2.249757 2.681156 0); 
+
+   } 
+line2 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.313135 0.389803 0); 
+end  (2.191947 2.728620 0); 
+
+   } 
+line3 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.304734 0.396405 0); 
+end  (2.133137 2.774838 0); 
+
+   } 
+line4 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.296193 0.402827 0); 
+end  (2.073352 2.819789 0); 
+
+   } 
+line5 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.287517 0.409065 0); 
+end  (2.012620 2.863452 0); 
+
+   } 
+line6 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.278710 0.415115 0); 
+end  (1.950970 2.905808 0); 
+
+   } 
+line7 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.269775 0.420977 0); 
+end  (1.888428 2.946836 0); 
+
+   } 
+line8 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.260718 0.426645 0); 
+end  (1.825023 2.986518 0); 
+
+   } 
+line9 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.251541 0.432119 0); 
+end  (1.760785 3.024836 0); 
+
+   } 
+line10 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.242249 0.437396 0); 
+end  (1.695743 3.061773 0); 
+
+   } 
+line11 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.232847 0.442473 0); 
+end  (1.629927 3.097312 0); 
+
+   } 
+line12 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.223338 0.447348 0); 
+end  (1.563366 3.131435 0); 
+
+   } 
+line13 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.213727 0.452018 0); 
+end  (1.496091 3.164129 0); 
+
+   } 
+line14 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.204019 0.456483 0); 
+end  (1.428132 3.195378 0); 
+
+   } 
+line15 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.194217 0.460738 0); 
+end  (1.359522 3.225167 0); 
+
+   } 
+line16 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.184327 0.464783 0); 
+end  (1.290290 3.253483 0); 
+
+   } 
+line17 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.174353 0.468616 0); 
+end  (1.220470 3.280313 0); 
+
+   } 
+line18 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.164299 0.472235 0); 
+end  (1.150091 3.305645 0); 
+
+   } 
+line19 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.154170 0.475638 0); 
+end  (1.079188 3.329467 0); 
+
+   } 
+line20 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.143970 0.478824 0); 
+end  (1.007792 3.351769 0); 
+
+   } 
+line21 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.133705 0.481791 0); 
+end  (0.935935 3.372540 0); 
+
+   } 
+line22 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.123379 0.484539 0); 
+end  (0.863651 3.391771 0); 
+
+   } 
+line23 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.112996 0.487065 0); 
+end  (0.790972 3.409452 0); 
+
+   } 
+line24 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.102562 0.489368 0); 
+end  (0.717933 3.425576 0); 
+
+   } 
+line25 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.092081 0.491448 0); 
+end  (0.644565 3.440136 0); 
+
+   } 
+line26 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.081558 0.493304 0); 
+end  (0.570903 3.453125 0); 
+
+   } 
+line27 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.070997 0.494934 0); 
+end  (0.496980 3.464536 0); 
+
+   } 
+line28 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.060404 0.496338 0); 
+end  (0.422830 3.474365 0); 
+
+   } 
+line29 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.049784 0.497515 0); 
+end  (0.348487 3.482608 0); 
+
+   } 
+line30 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.039141 0.498466 0); 
+end  (0.273985 3.489260 0); 
+
+   } 
+line31 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.028480 0.499188 0); 
+end  (0.199358 3.494318 0); 
+
+   } 
+line32 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.017806 0.499683 0); 
+end  (0.124640 3.497780 0); 
+
+   } 
+line33 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (0.007124 0.499949 0); 
+end  (0.049865 3.499645 0); 
+
+   } 
+line34 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.003562 0.499987 0); 
+end  (-0.024933 3.499911 0); 
+
+   } 
+line35 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.014246 0.499797 0); 
+end  (-0.099720 3.498579 0); 
+
+   } 
+line36 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.024923 0.499378 0); 
+end  (-0.174461 3.495649 0); 
+
+   } 
+line37 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.035589 0.498732 0); 
+end  (-0.249122 3.491123 0); 
+
+   } 
+line38 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.046238 0.497857 0); 
+end  (-0.323669 3.485002 0); 
+
+   } 
+line39 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.056867 0.496756 0); 
+end  (-0.398069 3.477289 0); 
+
+   } 
+line40 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.067470 0.495427 0); 
+end  (-0.472287 3.467989 0); 
+
+   } 
+line41 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.078041 0.493872 0); 
+end  (-0.546289 3.457104 0); 
+
+   } 
+line42 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.088577 0.492091 0); 
+end  (-0.620042 3.444640 0); 
+
+   } 
+line43 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.099073 0.490086 0); 
+end  (-0.693512 3.430604 0); 
+
+   } 
+line44 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.109523 0.487857 0); 
+end  (-0.766664 3.415000 0); 
+
+   } 
+line45 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.119924 0.485405 0); 
+end  (-0.839467 3.397837 0); 
+
+   } 
+line46 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.130269 0.482732 0); 
+end  (-0.911886 3.379122 0); 
+
+   } 
+line47 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.140556 0.479838 0); 
+end  (-0.983889 3.358863 0); 
+
+   } 
+line48 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.150777 0.476724 0); 
+end  (-1.055442 3.337071 0); 
+
+   } 
+line49 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.160931 0.473393 0); 
+end  (-1.126514 3.313754 0); 
+
+   } 
+line50 
+{ 
+type   lineCell; 
+axis   xyz; 
+start  (-0.171010 0.469846 0); 
+end  (-1.197071 3.288924 0); 
+
+   } 
+);
+
+
+fields          ( p U );
+
+
+// ************************************************************************* //
