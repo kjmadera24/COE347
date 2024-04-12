@@ -1,0 +1,85 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : checkMesh
+Date   : Apr 12 2024
+Time   : 03:47:19
+Host   : "c201-002.frontera.tacc.utexas.edu"
+PID    : 220601
+I/O    : uncollated
+Case   : /work2/09043/kjm24/frontera/COE347/OF3/m3WindTunnel500k
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Time = 0
+
+Mesh stats
+    points:           1165058
+    internal points:  0
+    faces:            2324352
+    internal faces:   1159296
+    cells:            580608
+    faces per cell:   6
+    boundary patches: 6
+    point zones:      0
+    face zones:       0
+    cell zones:       0
+
+Overall number of cells of each type:
+    hexahedra:     580608
+    prisms:        0
+    wedges:        0
+    pyramids:      0
+    tet wedges:    0
+    tetrahedra:    0
+    polyhedra:     0
+
+Checking topology...
+    Boundary definition OK.
+    Cell to face addressing OK.
+    Point usage OK.
+    Upper triangular ordering OK.
+    Face vertices OK.
+    Number of regions: 1 (OK).
+
+Checking patch topology for multiply connected surfaces...
+    Patch               Faces    Points   Surface topology                  
+    inlet               480      962      ok (non-closed singly connected)  
+    outlet              384      770      ok (non-closed singly connected)  
+    bottom              288      578      ok (non-closed singly connected)  
+    top                 1440     2882     ok (non-closed singly connected)  
+    obstacle            1248     2498     ok (non-closed singly connected)  
+    defaultFaces        1161216  1165058  ok (non-closed singly connected)  
+
+Checking geometry...
+    Overall domain bounding box (0 0 -0.05) (3 1 0.05)
+    Mesh has 2 geometric (non-empty/wedge) directions (1 1 0)
+    Mesh has 2 solution (non-empty) directions (1 1 0)
+    All edges aligned with or perpendicular to non-empty directions.
+    Boundary openness (5.72734e-18 -5.46315e-16 -3.16212e-13) OK.
+    Max cell openness = 9.75782e-17 OK.
+    Max aspect ratio = 1 OK.
+    Minimum face area = 4.34028e-06. Maximum face area = 0.000208333.  Face area magnitudes OK.
+    Min volume = 4.34028e-07. Max volume = 4.34028e-07.  Total volume = 0.252.  Cell volumes OK.
+    Mesh non-orthogonality Max: 0 average: 0
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 1.24287e-12 OK.
+    Coupled point location match (average 0) OK.
+
+Mesh OK.
+
+End
+
