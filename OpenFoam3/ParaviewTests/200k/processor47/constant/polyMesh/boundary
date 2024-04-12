@@ -1,0 +1,83 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+8
+(
+    inlet
+    {
+        type            patch;
+        nFaces          0;
+        startFace       8057;
+    }
+    outlet
+    {
+        type            patch;
+        nFaces          28;
+        startFace       8057;
+    }
+    bottom
+    {
+        type            symmetryPlane;
+        inGroups        List<word> 1(symmetryPlane);
+        nFaces          0;
+        startFace       8085;
+    }
+    top
+    {
+        type            symmetryPlane;
+        inGroups        List<word> 1(symmetryPlane);
+        nFaces          147;
+        startFace       8085;
+    }
+    obstacle
+    {
+        type            patch;
+        nFaces          0;
+        startFace       8232;
+    }
+    defaultFaces
+    {
+        type            empty;
+        inGroups        List<word> 1(empty);
+        nFaces          8232;
+        startFace       8232;
+    }
+    procBoundary47to41
+    {
+        type            processor;
+        inGroups        List<word> 1(processor);
+        nFaces          147;
+        startFace       16464;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        47;
+        neighbProcNo    41;
+    }
+    procBoundary47to46
+    {
+        type            processor;
+        inGroups        List<word> 1(processor);
+        nFaces          28;
+        startFace       16611;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        47;
+        neighbProcNo    46;
+    }
+)
+
+// ************************************************************************* //

@@ -8,9 +8,9 @@
 Build  : 7
 Exec   : blockMesh
 Date   : Apr 12 2024
-Time   : 03:47:10
-Host   : "c201-002.frontera.tacc.utexas.edu"
-PID    : 220586
+Time   : 13:09:48
+Host   : "c201-011.frontera.tacc.utexas.edu"
+PID    : 70598
 I/O    : uncollated
 Case   : /work2/09043/kjm24/frontera/COE347/OF3/m3WindTunnel500k
 nProcs : 1

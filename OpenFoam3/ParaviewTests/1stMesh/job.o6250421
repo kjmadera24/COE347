@@ -1,0 +1,8 @@
+/work2/09043/kjm24/frontera/COE347/OF3/m3WindTunnel
+Fri Apr 12 13:34:09 CDT 2024
+Running blockMesh on /work2/09043/kjm24/frontera/COE347/OF3/m3WindTunnel
+Running checkMesh on /work2/09043/kjm24/frontera/COE347/OF3/m3WindTunnel
+Running decomposePar on /work2/09043/kjm24/frontera/COE347/OF3/m3WindTunnel
+Running rhoCentralFoam in parallel on /work2/09043/kjm24/frontera/COE347/OF3/m3WindTunnel using 48 processes
+Running reconstructPar on /work2/09043/kjm24/frontera/COE347/OF3/m3WindTunnel
+Fri Apr 12 13:35:21 CDT 2024
