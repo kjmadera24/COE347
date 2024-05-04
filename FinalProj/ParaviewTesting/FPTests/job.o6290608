@@ -1,0 +1,8 @@
+/work2/09043/kjm24/frontera/COE347/FPTests
+Thu May  2 16:19:18 CDT 2024
+Running blockMesh on /work2/09043/kjm24/frontera/COE347/FPTests
+Running checkMesh on /work2/09043/kjm24/frontera/COE347/FPTests
+Running decomposePar on /work2/09043/kjm24/frontera/COE347/FPTests
+Running icoFoam in parallel on /work2/09043/kjm24/frontera/COE347/FPTests using 448 processes
+Running reconstructPar on /work2/09043/kjm24/frontera/COE347/FPTests
+Thu May  2 16:34:50 CDT 2024
